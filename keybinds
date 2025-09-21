@@ -1,11 +1,11 @@
 # Delete default keybindings
 keybind=clear
 
-# Splits
-keybind = ctrl+shift+h=goto_split:left
-keybind = ctrl+shift+l=goto_split:right
-keybind = ctrl+shift+j=goto_split:bottom
-keybind = ctrl+shift+k=goto_split:top
+## Splits
+keybind = performable:ctrl+h=goto_split:left
+keybind = performable:ctrl+j=goto_split:bottom
+keybind = performable:ctrl+k=goto_split:top
+keybind = performable:ctrl+l=goto_split:right
 
 keybind = ctrl+s>h=new_split:right
 keybind = ctrl+s>j=new_split:down
@@ -35,16 +35,19 @@ keybind = ctrl+a=select_all
 
 # Misc
 keybind = ctrl+shift+comma=reload_config
-keybind = ctrl+shift+f=toggle_maximize
+keybind = ctrl+m=toggle_maximize
 
 # SIGINT
-keybind = ctrl+k=text:\x03
+keybind = ctrl+shift+c=text:\x03
 
 # Deleting
 keybind = ctrl+backspace=text:\x17
 
 # scroll up and down
-keybind = ctrl+b=scroll_page_up
-keybind = ctrl+f=scroll_page_down
-keybind = ctrl+e=scroll_page_lines:1
-keybind = ctrl+y=scroll_page_lines:-1
+keybind = performable:alt+f=scroll_page_down
+keybind = performable:alt+b=scroll_page_up
+keybind = performable:alt+e=scroll_page_lines:1
+keybind = performable:alt+y=scroll_page_lines:-1
+
+window-height = 27
+window-width = 102
