@@ -48,6 +48,3 @@ keybind = performable:alt+f=scroll_page_down
 keybind = performable:alt+b=scroll_page_up
 keybind = performable:alt+e=scroll_page_lines:1
 keybind = performable:alt+y=scroll_page_lines:-1
-
-window-height = 27
-window-width = 102
